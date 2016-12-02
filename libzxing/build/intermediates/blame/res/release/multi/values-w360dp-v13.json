@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "/Users/limxing/AndroidStudioProjects/ZXing/libzxing/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w360dp-v13/values-w360dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "/Users/limxing/AndroidStudioProjects/ZXing/libzxing/build/intermediates/exploded-aar/me.leefeng/library/1.0.8/res/values-w360dp-v13/values-w360dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 43,
+                        "endOffset": 94
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 54,
+                    "endOffset": 149
+                },
+                "from": {
+                    "file": "/Users/limxing/AndroidStudioProjects/ZXing/libzxing/build/intermediates/exploded-aar/me.leefeng/library/1.0.8/res/values-w360dp-v13/values-w360dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 99,
+                        "endColumn": 54,
+                        "endOffset": 149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 154,
+                    "endColumn": 49,
+                    "endOffset": 199
+                },
+                "from": {
+                    "file": "/Users/limxing/AndroidStudioProjects/ZXing/libzxing/build/intermediates/exploded-aar/me.leefeng/library/1.0.8/res/values-w360dp-v13/values-w360dp-v13.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 154,
+                        "endColumn": 49,
+                        "endOffset": 199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 204,
+                    "endColumn": 53,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "/Users/limxing/AndroidStudioProjects/ZXing/libzxing/build/intermediates/exploded-aar/me.leefeng/library/1.0.8/res/values-w360dp-v13/values-w360dp-v13.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 204,
+                        "endColumn": 53,
+                        "endOffset": 253
+                    }
+                }
+            }
+        ]
+    }
+]

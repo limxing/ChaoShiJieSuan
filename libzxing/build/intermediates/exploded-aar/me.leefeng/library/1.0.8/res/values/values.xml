@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alertview_bgColor_overlay">#60000000</color>
+    <color name="bgColor_actionsheet_cancel_nor">#ffffff</color>
+    <color name="bgColor_alert_button_press">#EAEAEA</color>
+    <color name="bgColor_alertview_alert">#f8f8f8</color>
+    <color name="bgColor_alertview_alert_start">#f0f0f0</color>
+    <color name="bgColor_divier">#d7d7db</color>
+    <color name="bgColor_overlay">#90000000</color>
+    <color name="bgColor_overlay_black">#95000000</color>
+    <color name="bgColor_svprogressdefaultview">@android:color/white</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="black_p50">#7f000000</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="button_normal">#eeeeee</color>
+    <color name="button_presseed">#dddddd</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="cell_line_color">#cccccc</color>
+    <color name="cellview_color">#222222</color>
+    <color name="cellview_edite_textcolor">#888888</color>
+    <color name="cellview_edite_texthintcolor">#c9c9c9</color>
+    <color name="circle_color">#323a45</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="color_909090">#909090</color>
+    <color name="color_bbbbbb">#bbbbbb</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="header_bg_common">#323a45</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="lm_bottomdialog">#60000000</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="province_line_border">#D0D0D0</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="ring_color">#14b9d6</color>
+    <color name="roundColor_svprogresshuddefault">#e5e5e5</color>
+    <color name="roundProgressColor_svprogresshuddefault">@android:color/black</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="textColor_actionsheet_msg">#8f8f8f</color>
+    <color name="textColor_actionsheet_title">#8f8f8f</color>
+    <color name="textColor_alert_button_cancel">#007aff</color>
+    <color name="textColor_alert_button_destructive">#ff3b30</color>
+    <color name="textColor_alert_button_others">#007aff</color>
+    <color name="textColor_alert_msg">#000000</color>
+    <color name="textColor_alert_title">#000000</color>
+    <color name="textColor_svprogresshuddefault_msg">#ffffff</color>
+    <color name="text_color">#575757</color>
+    <color name="title_txt_color">#f1f1f3</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="transparent">#00000000</color>
+    <color name="tucengcellview_color">#444444</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="metaButtonBarStyle"/><attr format="reference" name="metaButtonBarButtonStyle"/></declare-styleable>
+    <declare-styleable name="CellView"><attr format="string" name="titleText"/><attr format="integer" name="titleStyle"/><attr format="integer" name="length"/><attr format="string" name="hintText"/><attr format="string" name="netName"/><attr format="string" name="mSelect"/><attr format="boolean" name="hiddenLine"/><attr format="boolean" name="showRightPic"/><attr format="boolean" name="clickAble"/><attr format="boolean" name="isPassword"/><attr format="boolean" name="setSendType"/><attr format="boolean" name="topLine"/><attr format="reference" name="drawable"/></declare-styleable>
+    <declare-styleable name="ExpandableView"><attr format="string" name="viewTitle"/><attr format="boolean" name="viewTitleShow"/><attr format="color" name="viewTitleColor"/><attr format="dimension" name="viewTitleSize"/><attr format="color" name="viewTitleLineColor"/><attr format="color" name="viewTitleBacColor"/><attr format="reference" name="viewTitleImage"/><attr format="integer" name="animDuration"/><attr format="float" name="animAlphaStart"/><attr format="reference" name="expandDrawable"/><attr format="reference" name="collapseDrawable"/></declare-styleable>
+    <declare-styleable name="Rotate3dAnimation"><attr format="enum" name="rollType">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr><attr format="float" name="fromDeg"/><attr format="float" name="toDeg"/><attr format="fraction" name="pivotX"/><attr format="fraction" name="pivotY"/></declare-styleable>
+    <declare-styleable name="SVCircleProgressBar"><attr format="color" name="roundColor"/><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="integer" name="max"/><attr name="style">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="TasksCompletedView"><attr format="dimension" name="radius"/><attr format="dimension" name="strokeWidth"/><attr format="color" name="circleColor"/><attr format="color" name="ringColor"/></declare-styleable>
+    <declare-styleable name="ToggleButton"><attr format="dimension" name="borderWidthT">
+        </attr><attr format="reference|color" name="offBorderColor">
+        </attr><attr format="reference|color" name="offColor">
+        </attr><attr format="reference|color" name="onColor">
+        </attr><attr format="reference|color" name="spotColor">
+        </attr><attr format="reference|boolean" name="animate">
+        </attr><attr format="reference|boolean" name="isDefaultOn">
+        </attr></declare-styleable>
+    <declare-styleable name="swiperefresh"><attr format="color" name="srlbg"/><attr format="dimension" name="srlTextSize"/><attr format="color" name="srlTextColor"/><attr format="reference" name="roateImage"/><attr format="reference" name="flipImage"/><attr format="reference" name="finishedImage"/><attr format="boolean" name="ptr"/><attr format="boolean" name="ptl"/><attr format="string" name="pullDownLabel"/><attr format="string" name="refreshingLabel"/><attr format="string" name="releaseDownLabel"/><attr format="string" name="pullUpLabel"/><attr format="string" name="loadingLabel"/><attr format="string" name="releaseUpLabel"/><attr name="srlAnimationStyle">
+            <flag name="rotate" value="0x0"/>
+            <flag name="flip" value="0x1"/>
+        </attr></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="alert_width">200dp</dimen>
+    <dimen name="bottomdialog_title_size">20dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="height_actionsheet_title">40dp</dimen>
+    <dimen name="height_alert_button">48dp</dimen>
+    <dimen name="height_alert_title">60dp</dimen>
+    <dimen name="marginBottom_actionsheet_msg">14dp</dimen>
+    <dimen name="marginBottom_alert_msg">25dp</dimen>
+    <dimen name="margin_actionsheet_left_right">10dp</dimen>
+    <dimen name="margin_alert_left_right">40dp</dimen>
+    <dimen name="margintop_svprogresshuddefault_msg">10dp</dimen>
+    <dimen name="padding_svprogresshuddefault">15dp</dimen>
+    <dimen name="padingTop">0dp</dimen>
+    <dimen name="pickerview_topbar_btn_textsize">16sp</dimen>
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <dimen name="pickerview_topbar_paddingleft">10dp</dimen>
+    <dimen name="pickerview_topbar_paddingright">30dp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">18sp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <dimen name="radius_alertview">15px</dimen>
+    <dimen name="radius_svprogresshuddefault">25px</dimen>
+    <dimen name="size_divier">1dp</dimen>
+    <dimen name="size_image_bigloading">80dp</dimen>
+    <dimen name="size_image_smallloading">60dp</dimen>
+    <dimen name="size_minwidth_svprogresshuddefault">120dp</dimen>
+    <dimen name="textSize_actionsheet_msg">14sp</dimen>
+    <dimen name="textSize_actionsheet_title">14sp</dimen>
+    <dimen name="textSize_alert_button">18sp</dimen>
+    <dimen name="textSize_alert_msg">15sp</dimen>
+    <dimen name="textSize_alert_title">22sp</dimen>
+    <dimen name="textSize_svprogresshuddefault_msg">15sp</dimen>
+    <dimen name="title_height">68dp</dimen>
+    <integer name="animation_default_duration">300</integer>
+    <integer name="svanimation_default_duration">300</integer>
+    <string name="LOADING">加载中...</string>
+    <string name="app_name">Library</string>
+    <string name="ask_again">请给予应用必要权限，让程序可正常工作。</string>
+    <string name="cancel">取消</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="perm_tip">
+        当前应用缺少必要权限。\n请点击"设置"-"权限"-打开所需权限。\n最后点击两次后退按钮，即可返回。
+    </string>
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="setting">设置</string>
+    <string name="time_error">时间有问题</string>
+    <string name="title_activity_bottom_dialog">BottomDialog</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_failt">刷新失败</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_success">刷新成功</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <style name="AlertActivity_AlertStyle" parent="android:Theme.Dialog">
+        <!--<item name="android:windowAnimationStyle">@style/AnimAlert</item>-->
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Animation.Activity.Translucent.Style" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowEnterAnimation">@anim/activity_totop</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowExitAnimation">@anim/activity_tobottom</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+    <style name="MMTheme.DataSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/mySelect</item>
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
+    </style>
+    <style name="MMTheme.DatePicker" parent="@android:style/Theme.InputMethod">
+
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@style/mySelect</item>
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
+    </style>
+    <style name="Theme.Swipe.Back" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="bottomDialog" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@color/black_overlay</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+    </style>
+    <style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+    <style name="myBottom" parent="android:Animation">
+        <!--<item name="@android:windowEnterAnimation">@anim/activity_totop</item>-->
+        <item name="@android:windowEnterAnimation">@anim/activity_totop</item>
+        //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/activity_tobottom</item>
+        //退出时的动画
+    </style>
+    <style name="myBottomBac" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/toast_enter</item>
+        //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/toast_exit</item>
+    </style>
+    <style name="mySelect" parent="@android:style/Animation.Dialog">
+    <item name="@android:windowEnterAnimation">@anim/activity_totop</item>
+    //进入时的动画
+    <item name="@android:windowExitAnimation">@anim/activity_tobottom</item>
+    //退出时的动画
+</style>
+    <style name="rightin" parent="android:Animation">
+        <!--<item name="@android:windowEnterAnimation">@anim/activity_totop</item>-->
+        <item name="@android:windowEnterAnimation">@anim/slide_in_right</item>
+        //进入时的动画
+        <item name="@android:windowExitAnimation">@anim/slide_out_right</item>
+        //退出时的动画
+    </style>
+</resources>
